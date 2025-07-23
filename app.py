@@ -37,6 +37,7 @@ for linha in sheet_produtos.iter_rows(min_row=2):
     pyautogui.click(1173,830,duration=1)
     pyautogui.hotkey('ctrl','v')
 
+    #Botao "Próximo"
     pyautogui.click(1170,882,duration=1)
     sleep(3)
 
@@ -74,6 +75,7 @@ for linha in sheet_produtos.iter_rows(min_row=2):
     pyautogui.click(1154,818,duration=1)
     pyautogui.hotkey('ctrl','v')
 
+    #Botao "Próximo"
     pyautogui.click(1134,887,duration=1)
     sleep(3)
 
